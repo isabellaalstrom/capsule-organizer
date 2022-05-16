@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>svelte_dotnet_app</RootNamespace>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <Content Remove="package.json" />
+        <Content Remove="svelte-app\**\*" />
+    </ItemGroup>
+
+</Project>
